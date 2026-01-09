@@ -24,7 +24,7 @@ public class KeyBindTest : MonoBehaviour
        }
 
 
-       if (PlayerAction.FindAction("Movement").IsPressed()) // Name comes from Player Input (ex. movements)
+       if (PlayerAction.FindAction("Move").IsPressed()) // Name comes from Player Input (ex. movements)
        {
            PlayerAnimator.SetBool("Walk", true); // Name comes from Animator, Parameters, Bools -
        }
