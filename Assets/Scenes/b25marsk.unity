@@ -152,6 +152,7 @@ Transform:
   - {fileID: 1954532552}
   - {fileID: 1165482443}
   - {fileID: 1195188413}
+  - {fileID: 221106884}
   m_Father: {fileID: 1583835573}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &77767530
@@ -243,7 +244,7 @@ GameObject:
   - component: {fileID: 221106883}
   - component: {fileID: 221106882}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: ParticleFlies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5057,12 +5058,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 221106881}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 36.56, y: 7.83, z: -0.01}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 6.924982, y: 1.582757, z: -0.04590331}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 76538837}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &227081831
 GameObject:
@@ -6052,12 +6053,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861553335}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3, y: 19.15, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -28.33502, y: 12.902757, z: -0.035903312}
   m_LocalScale: {x: 0.118370034, y: 0.18819681, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1583835573}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &861553340
 Animator:
@@ -12206,6 +12207,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 861553339}
   - {fileID: 76538837}
   - {fileID: 759245301}
   m_Father: {fileID: 0}
@@ -12456,10 +12458,8 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 219977086}
   - {fileID: 990249019}
-  - {fileID: 861553339}
   - {fileID: 550486031}
   - {fileID: 1430341271}
   - {fileID: 227081834}
   - {fileID: 77767531}
   - {fileID: 1583835573}
-  - {fileID: 221106884}
